@@ -13,6 +13,7 @@ def key_for_min_value(name_hash)
         min_value = v
         min_key = k
       end
+      min_key.join
     end
   end
 end
